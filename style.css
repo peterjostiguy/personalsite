@@ -1,0 +1,53 @@
+.leftcontainer {
+  width: 20vw;
+  height: 100vh;
+  background-color: hsl(0,0%,40%);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  align-items: center;
+}
+
+.logo {
+  width: 16vw;
+  height: 16vw;
+  /*background-color: hsl(229,100%,66%);*/
+  /*border-radius: 50%;*/
+  margin-top: 8vh;
+  margin-left: -0.5vw;
+}
+
+.maininfo {
+  font-size: 2vw;
+  margin-top: 6vw;
+
+}
+
+.lesserinfo {
+  font-size: 1.0vw;
+}
+
+.introinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3%;
+}
+.name {
+  font-size: 4vw;
+  margin-bottom: -3vw;
+}
+
+.divider {
+  width: 8vw;
+  height: .75vh;
+  background-color: white;
+}
+
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3%;
+}
