@@ -1,12 +1,15 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+}
 .leftcontainer {
   width: 20vw;
   height: 100vh;
   background-color: hsl(0,0%,40%);
   display: flex;
   flex-direction: column;
-  font-family: 'Oswald', sans-serif;
-  color: white;
   align-items: center;
+  color: white;
 }
 
 .logo {
@@ -25,7 +28,7 @@
 }
 
 .lesserinfo {
-  font-size: 1.0vw;
+  font-size: 1vw;
 }
 
 .introinfo {
@@ -39,15 +42,80 @@
   margin-bottom: -3vw;
 }
 
-.divider {
+.leftdivider {
   width: 8vw;
   height: .75vh;
   background-color: white;
+  margin-top: 4vw;
+}
+
+.rightdivider {
+  width: 1vh;
+  height: 30vh;
+  background-color: hsl(0,0%,40%);
+  margin-top: 10vh;
+}
+
+.upperrightdivider {
+  width: .5vh;
+  height: 30vh;
+  background-color: hsl(0,0%,40%);
+  margin-top: 10vh;
 }
 
 .contactinfo {
+  margin-left: 3vw;
+}
+
+.toprightcontainer {
+  height: 50vh;
+  width: 80vw;
+  /*border-bottom: 1px solid hsl(0,0%,40%);*/
+  display: flex;
+}
+
+.aboutcontainer {
+  height: 40vh;
+  width: 50vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: -3%;
+  margin-left: 3vw;
+  padding-right: 3vw;
+}
+
+
+.bottomrightcontainer {
+  height: 50vh;
+  width: 80vw;
+}
+
+.projectscontainer {
+  display: flex;
+  overflow-x:scroll;
+  overflow-y: visible;
+  display: flex;
+  margin-top: -3.1vh;
+}
+.project{
+  width: 25vw;
+  height: 50vh;
+  padding-left: 3vw;
+  display: flex;
+  /*overflow-y: scroll;*/
+}
+
+.projectinfo {
+  margin-right: 3vw;
+}
+.projectimage {
+  width: 18vw;
+}
+.projectlabel {
+  margin-top: -6.1vh;
+  margin-left: 3vw;
+}
+
+.imagecontainer {
+  height:17.5vh;
+  overflow-y: hidden;
 }
