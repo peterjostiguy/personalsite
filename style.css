@@ -119,3 +119,11 @@ body {
   height:17.5vh;
   overflow-y: hidden;
 }
+
+.aboutme {
+  margin-top: -1vh;
+}
+
+.aboutme2 {
+  margin-top: -.1vh;
+}
